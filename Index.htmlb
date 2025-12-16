@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beauty By Bre</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <style>
+    body{
+      margin:0;
+      font-family:"Poppins",sans-serif;
+      color:#fff;
+      background:
+        url('https://i.imgur.com/1XSR4qR.jpg') center/cover fixed no-repeat; /* black diamond glitter */
+    }
+    nav ul{margin:0;padding:0}
+    nav strong{
+      font-size:1.6rem;
+      color:#f5b6cc;
+      text-shadow:0 0 10px #f5b6cc;
+    }
+    h1,h2,h3{color:#f5b6cc;text-align:center;text-shadow:0 0 8px #f5b6cc;}
+    section{margin-bottom:3rem;}
+    .service img,.gallery img{
+      border:3px solid #f5b6cc;
+      border-radius:8px;
+      box-shadow:0 0 12px rgba(245,182,204,0.7);
+      width:100%;
+      max-width:280px;
+      height:auto;
+    }
+    .service-grid,.gallery-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:1rem;
+      justify-items:center;
+    }
+    .notice{
+      background:rgba(0,0,0,0.7);
+      border:2px solid #f5b6cc;
+      border-radius:8px;
+      padding:1rem;
+      text-align:center;
+    }
+    a.button{
+      background:#f5b6cc;
+      color:#000;
+      font-weight:600;
+      padding:0.8rem 1.5rem;
+      border-radius:6px;
+      text-decoration:none;
+      display:inline-block;
+      transition:all .3s ease;
+    }
+    a.button:hover{box-shadow:0 0 15px #f5b6cc;transform:scale(1.05);}
+    footer{text-align:center;color:#f5b6cc;padding:1rem 0;}
+  </style>
+</head>
+<body>
+  <nav class="container-fluid">
+    <ul><li><strong>Beauty By Bre</strong></li></ul>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#book">✨ Book the Look ✨</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+
+    <section id="about">
+      <h1>Beauty By Bre</h1>
+      <p style="text-align:center;max-width:650px;margin:auto;">
+        At <strong>Beauty By Bre</strong>, my goal is simple — I want every client to leave my chair feeling confident, cared for, and absolutely beautiful.
+        I specialize in creating timeless looks with a modern boss-girly twist, whether you’re getting a sleek ponytail, a flawless sew-in, or the perfect braid style.
+        Beauty isn’t just what I do — it’s how I make you feel.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <p class="notice"><strong>Note:</strong> Please come with clean hair before your appointment.</p>
+
+      <div class="service">
+        <h3>Ponytails</h3>
+        <ul>
+          <li>No lace – $60</li>
+          <li>Frontal – $80</li>
+          <li>Double Frontal – $100</li>
+        </ul>
+        <div class="service-grid">
+          <img src="add-your-photo-here.jpg" alt="Ponytail example">
+          <img src="add-your-photo-here.jpg" alt="Ponytail example">
+          <img src="add-your-photo-here.jpg" alt="Ponytail example">
+        </div>
+      </div>
+
+      <div class="service">
+        <h3>Quick Weaves</h3>
+        <ul>
+          <li>Partial/Traditional – $60</li>
+          <li>Closure – $80</li>
+          <li>Frontal – $100</li>
+        </ul>
+        <div class="service-grid">
+          <img src="add-your-photo-here.jpg" alt="Quick weave example">
+          <img src="add-your-photo-here.jpg" alt="Quick weave example">
+          <img src="add-your-photo-here.jpg" alt="Quick weave example">
+        </div>
+      </div>
+
+      <div class="service">
+        <h3>Sew Ins</h3>
+        <ul>
+          <li>Partial/Traditional – $100</li>
+          <li>Tribal Sew In – $120</li>
+          <li>Closure Sew In – $130</li>
+          <li>Frontal Sew In – $160</li>
+        </ul>
+        <div class="service-grid">
+          <img src="add-your-photo-here.jpg" alt="Sew in example">
+          <img src="add-your-photo-here.jpg" alt="Sew in example">
+          <img src="add-your-photo-here.jpg" alt="Sew in example">
+        </div>
+      </div>
+
+      <div class="service">
+        <h3>Braids</h3>
+        <ul>
+          <li>No weave (6 under) – $20</li>
+          <li>No weave (7 plus) – $30 – $40</li>
+          <li>Feed-ins/Cornrows (8 under) – $60</li>
+          <li>Regular length – $80</li>
+          <li>Long – $140</li>
+          <li>Bob length – $140 – $160</li>
+          <li>Medium mid back – $165</li>
+          <li>Tribal mid back – $165</li>
+          <li>Medium waist length – $220</li>
+          <li>Small mid back – $190</li>
+          <li>Tribal waist length – $190</li>
+          <li>Small waist length – $260</li>
+          <li>Large knotless – $150</li>
+          <li>XL – $130</li>
+        </ul>
+        <div class="service-grid">
+          <img src="add-your-photo-here.jpg" alt="Braids example">
+          <img src="add-your-photo-here.jpg" alt="Braids example">
+          <img src="add-your-photo-here.jpg" alt="Braids example">
+        </div>
+      </div>
+
+      <div class="service">
+        <h3>Loc Up Keep</h3>
+        <ul><li>$60</li></ul>
+        <div class="service-grid">
+          <img src="add-your-photo-here.jpg" alt="Loc upkeep example">
+          <img src="add-your-photo-here.jpg" alt="Loc upkeep example">
+        </div>
+      </div>
+    </section>
+
+    <section id="book">
+      <h2>Deposits & Booking</h2>
+      <div class="notice">
+        ⚠️ A $20 deposit is required. Deposits are non-refundable and non-transferable within 2 days of appointment.
+      </div>
+      <p style="text-align:center;">
+        Send your $20 deposit through one of the options below:<br><br>
+        💖 Cash App / 🍏 Apple Pay / 🏦 Zelle → <strong>817-812-8233</strong><br><br>
+        <em>After sending your deposit, please contact me to confirm your appointment time.</em>
+      </p>
+      <div style="text-align:center;margin-top:1.5rem;">
+        <a href="https://calendly.com/beautybybreb" target="_blank" class="button">✨ Book the Look ✨</a>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Client Gallery</h2>
+      <p style="text-align:center;">Add your favorite client photos here to show off your work.</p>
+      <div class="gallery-grid">
+        <img src="add-your-photo-here.jpg" alt="Client look">
+        <img src="add-your-photo-here.jpg" alt="Client look">
+        <img src="add-your-photo-here.jpg" alt="Client look">
+        <img src="add-your-photo-here.jpg" alt="Client look">
+        <img src="add-your-photo-here.jpg" alt="Client look">
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Beauty By Bre © All Rights Reserved
+  </footer>
+</body>
+</html>
