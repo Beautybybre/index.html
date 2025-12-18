@@ -78,6 +78,56 @@
       </p>
     </section>
 
+<section id="gallery">
+  <h2>Client Gallery ✨</h2>
+  <div class="photo-grid">
+    <img src="PHOTO1LINK?raw=true" alt="Client 1">
+    <img src="PHOTO2LINK?raw=true" alt="Client 2">
+    <img src="PHOTO3LINK?raw=true" alt="Client 3">
+    <img src="PHOTO4LINK?raw=true" alt="Client 4">
+    <img src="PHOTO5LINK?raw=true" alt="Client 5">
+    <img src="PHOTO6LINK?raw=true" alt="Client 6">
+  </div>
+</section>
+
+<style>
+  #gallery {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  #gallery h2 {
+    color: #f8b6cc;
+    font-size: 2.3rem;
+    margin-bottom: 1.2rem;
+    text-shadow: 0 0 10px rgba(255,192,203,0.7);
+  }
+
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .photo-grid img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #f8b6cc;
+    box-shadow: 0 0 15px rgba(248,182,204,0.5);
+    transition: all 0.4s ease;
+    background: rgba(255,255,255,0.05);
+  }
+
+  .photo-grid img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(255,182,193,0.9);
+    border-color: #ff8fcf;
+  }
+</style>
+
     <section id="services">
       <h2>Services</h2>
       <p class="notice"><strong>Note:</strong> Please come with clean hair before your appointment.</p>
